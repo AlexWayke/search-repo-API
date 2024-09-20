@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search repositories</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+  <main class="main">
+    <section class="input">
+      <div class="input__wrapper">
+        <input class="input__field" type="text" placeholder="Repo name">
+        <div class="input__autocomplite">
+          <ul class="input__autocomplite-list">
+            <!-- <li class="input__autocomplite-li">
+              <button class="input__autocomplite-btn">redux</button>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="collection">
+      <ul class="collection__list">
+        <!-- <li class="collection__li">
+          <div class="collection__info">
+            <p class="collection__info-text">Name: <span>react</span></p>
+            <p class="collection__info-text">Owner: <span>facebook</span></p>
+            <p class="collection__info-text">Stars: <span>145231</span></p>
+          </div>
+          <button class="btn btn--remove">
+            Remove
+          </button>
+        </li> -->
+        <div class="collection__list-empty">
+          Empty list
+        </div>
+      </ul>
+    </section>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
